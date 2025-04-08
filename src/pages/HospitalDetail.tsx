@@ -86,13 +86,15 @@ const HospitalDetail = () => {
         </div>
         
         {/* Hospital Image */}
-        <div className="bg-gray-100 h-64 md:h-80">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
-            <img 
-              src={hospital.image} 
-              alt={hospital.name} 
-              className="w-full h-full object-cover rounded-lg" 
-            />
+        <div className="bg-gray-100">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="h-64 md:h-96 overflow-hidden rounded-lg shadow-md">
+              <img 
+                src={hospital.image} 
+                alt={hospital.name} 
+                className="w-full h-full object-cover transition-transform hover:scale-105 duration-700" 
+              />
+            </div>
           </div>
         </div>
         

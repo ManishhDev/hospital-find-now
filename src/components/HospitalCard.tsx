@@ -16,7 +16,8 @@ const HospitalCard: React.FC<HospitalCardProps> = ({ hospital }) => {
         <img
           src={hospital.image}
           alt={hospital.name}
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
+          loading="lazy"
         />
       </div>
       
