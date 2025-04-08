@@ -11,23 +11,23 @@ interface HospitalCardProps {
 
 const HospitalCard: React.FC<HospitalCardProps> = ({ hospital }) => {
   return (
-    <Card className="overflow-hidden flex flex-col h-full transition-all hover:shadow-md">
-      <div className="h-48 overflow-hidden bg-gray-100">
+    <Card className="overflow-hidden flex flex-col h-full transition-all hover:shadow-lg">
+      <div className="relative h-48 overflow-hidden bg-gray-100">
         <img
           src={hospital.image}
           alt={hospital.name}
           className="w-full h-full object-cover transition-transform hover:scale-105 duration-300"
           loading="lazy"
         />
+        <div className="absolute top-2 right-2 flex items-center gap-1 bg-white/90 text-hospital-primary px-2 py-1 rounded-full text-sm shadow-sm">
+          <Star size={14} fill="currentColor" />
+          <span className="font-semibold">{hospital.rating}</span>
+        </div>
       </div>
       
       <CardContent className="p-4 flex-grow">
         <div className="flex items-start justify-between">
           <h3 className="font-semibold text-lg">{hospital.name}</h3>
-          <div className="flex items-center gap-1 bg-hospital-primary/10 text-hospital-primary px-2 py-1 rounded-full text-sm">
-            <Star size={14} fill="currentColor" />
-            <span>{hospital.rating}</span>
-          </div>
         </div>
         
         <div className="flex items-center gap-1 text-gray-500 mt-2">

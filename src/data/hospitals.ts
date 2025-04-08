@@ -1,4 +1,3 @@
-
 import { Hospital, Specialty, City } from '../types';
 
 export const hospitals: Hospital[] = [
@@ -11,7 +10,7 @@ export const hospitals: Hospital[] = [
     address: '123 Healthcare St, Delhi',
     contact: '+91 9876543210',
     website: 'https://www.apollohospitals.com',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1626315869436-d6781ba69d6e?auto=format&fit=crop&q=80'
   },
   {
     id: '2',
@@ -33,7 +32,7 @@ export const hospitals: Hospital[] = [
     address: '789 Health Blvd, Delhi',
     contact: '+91 9876543212',
     website: 'https://www.maxhealthcare.in',
-    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80'
   },
   {
     id: '4',
@@ -55,7 +54,7 @@ export const hospitals: Hospital[] = [
     address: '202 Medical Road, Delhi',
     contact: '+91 9876543214',
     website: 'https://www.aiims.edu',
-    image: 'https://images.unsplash.com/photo-1587351021759-3e566b3db4f1?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80'
   },
   {
     id: '6',
@@ -66,7 +65,7 @@ export const hospitals: Hospital[] = [
     address: '303 Health Park, Bangalore',
     contact: '+91 9876543215',
     website: 'https://www.narayanahealth.org',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1581360742512-021d5b2157d8?auto=format&fit=crop&q=80'
   },
   {
     id: '7',
@@ -77,7 +76,7 @@ export const hospitals: Hospital[] = [
     address: '404 Doctor Drive, Mumbai',
     contact: '+91 9876543216',
     website: 'https://www.kokilabenhospital.com',
-    image: 'https://images.unsplash.com/photo-1613918084421-805e5bf0cbd8?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&q=80'
   },
   {
     id: '8',
@@ -88,7 +87,7 @@ export const hospitals: Hospital[] = [
     address: '505 Wellness Way, Hyderabad',
     contact: '+91 9876543217',
     website: 'https://www.globalhospitalsindia.com',
-    image: 'https://images.unsplash.com/photo-1626315869436-d6781ba69d6e?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1586534313132-8b5463fd95b1?auto=format&fit=crop&q=80'
   },
   {
     id: '9',
@@ -99,7 +98,7 @@ export const hospitals: Hospital[] = [
     address: '606 Care Court, Bangalore',
     contact: '+91 9876543218',
     website: 'https://www.columbiaasia.com',
-    image: 'https://images.unsplash.com/photo-1640078870190-066f615f336c?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1596541223130-5d31a73fb6c6?auto=format&fit=crop&q=80'
   },
   {
     id: '10',
@@ -110,7 +109,7 @@ export const hospitals: Hospital[] = [
     address: '707 Hospital Highway, Delhi',
     contact: '+91 9876543219',
     website: 'https://www.medanta.org',
-    image: 'https://images.unsplash.com/photo-1516549655669-9e0b2bfce7f1?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1587351021759-3e566b3db4f1?auto=format&fit=crop&q=80'
   },
   {
     id: '11',
@@ -121,7 +120,7 @@ export const hospitals: Hospital[] = [
     address: '808 Health Haven, Chennai',
     contact: '+91 9876543220',
     website: 'https://www.apollohospitals.com',
-    image: 'https://images.unsplash.com/photo-1587351021759-3e566b3db4f1?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1516549655669-9e0b2bfce7f1?auto=format&fit=crop&q=80'
   },
   {
     id: '12',
@@ -154,7 +153,7 @@ export const hospitals: Hospital[] = [
     address: '1111 Cancer Care Lane, Mumbai',
     contact: '+91 9876543223',
     website: 'https://tmc.gov.in',
-    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&q=80'
   },
   {
     id: '15',
@@ -165,7 +164,7 @@ export const hospitals: Hospital[] = [
     address: '1212 Vision Drive, Chennai',
     contact: '+91 9876543224',
     website: 'https://www.sankaranethralaya.org',
-    image: 'https://images.unsplash.com/photo-1587351021759-3e566b3db4f1?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80'
   },
   {
     id: '16',
@@ -176,7 +175,7 @@ export const hospitals: Hospital[] = [
     address: '1313 Health Street, Mumbai',
     contact: '+91 9876543225',
     website: 'https://www.jaslokhospital.net',
-    image: 'https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80'
   },
   {
     id: '17',
@@ -187,7 +186,7 @@ export const hospitals: Hospital[] = [
     address: '1414 Mother Care Road, Hyderabad',
     contact: '+91 9876543226',
     website: 'https://www.apollocradle.com',
-    image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1551076805-e1869033e561?auto=format&fit=crop&q=80'
   },
   {
     id: '18',
@@ -198,7 +197,7 @@ export const hospitals: Hospital[] = [
     address: '1515 Medical Park, Chennai',
     contact: '+91 9876543227',
     website: 'https://www.miotinternational.com',
-    image: 'https://images.unsplash.com/photo-1613918084421-805e5bf0cbd8?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&q=80'
   },
   {
     id: '19',
@@ -209,7 +208,7 @@ export const hospitals: Hospital[] = [
     address: '1616 Care Campus, Mumbai',
     contact: '+91 9876543228',
     website: 'https://www.lilavatihospital.com',
-    image: 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80'
   },
   {
     id: '20',
@@ -220,7 +219,7 @@ export const hospitals: Hospital[] = [
     address: '1717 Child Care Road, Mumbai',
     contact: '+91 9876543229',
     website: 'https://www.jupiterhospital.com',
-    image: 'https://images.unsplash.com/photo-1640078870190-066f615f336c?auto=format&fit=crop&q=80'
+    image: 'https://images.unsplash.com/photo-1587351021759-3e566b3db4f1?auto=format&fit=crop&q=80'
   }
 ];
 
