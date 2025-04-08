@@ -1,0 +1,248 @@
+
+import { Hospital, Specialty, City } from '../types';
+
+export const hospitals: Hospital[] = [
+  {
+    id: '1',
+    name: 'Apollo Hospitals',
+    city: 'Delhi',
+    specialties: ['Cardiology', 'Orthopedics', 'Neurology'],
+    rating: 4.5,
+    address: '123 Healthcare St, Delhi',
+    contact: '+91 9876543210',
+    website: 'https://www.apollohospitals.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '2',
+    name: 'Fortis Healthcare',
+    city: 'Mumbai',
+    specialties: ['Cardiology', 'Oncology', 'Pediatrics'],
+    rating: 4.3,
+    address: '456 Medical Ave, Mumbai',
+    contact: '+91 9876543211',
+    website: 'https://www.fortishealthcare.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '3',
+    name: 'Max Healthcare',
+    city: 'Delhi',
+    specialties: ['Orthopedics', 'Neurology', 'Dermatology'],
+    rating: 4.6,
+    address: '789 Health Blvd, Delhi',
+    contact: '+91 9876543212',
+    website: 'https://www.maxhealthcare.in',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '4',
+    name: 'Manipal Hospitals',
+    city: 'Bangalore',
+    specialties: ['Cardiology', 'Oncology', 'Maternity'],
+    rating: 4.4,
+    address: '101 Care Lane, Bangalore',
+    contact: '+91 9876543213',
+    website: 'https://www.manipalhospitals.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '5',
+    name: 'AIIMS',
+    city: 'Delhi',
+    specialties: ['General', 'Emergency', 'Neurology'],
+    rating: 4.8,
+    address: '202 Medical Road, Delhi',
+    contact: '+91 9876543214',
+    website: 'https://www.aiims.edu',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '6',
+    name: 'Narayana Health',
+    city: 'Bangalore',
+    specialties: ['Cardiology', 'Orthopedics', 'Pediatrics'],
+    rating: 4.5,
+    address: '303 Health Park, Bangalore',
+    contact: '+91 9876543215',
+    website: 'https://www.narayanahealth.org',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '7',
+    name: 'Kokilaben Hospital',
+    city: 'Mumbai',
+    specialties: ['Cardiology', 'Oncology', 'Neurology'],
+    rating: 4.7,
+    address: '404 Doctor Drive, Mumbai',
+    contact: '+91 9876543216',
+    website: 'https://www.kokilabenhospital.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '8',
+    name: 'Global Hospitals',
+    city: 'Hyderabad',
+    specialties: ['Orthopedics', 'Neurology', 'Pediatrics'],
+    rating: 4.4,
+    address: '505 Wellness Way, Hyderabad',
+    contact: '+91 9876543217',
+    website: 'https://www.globalhospitalsindia.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '9',
+    name: 'Columbia Asia',
+    city: 'Bangalore',
+    specialties: ['General', 'Pediatrics', 'Maternity'],
+    rating: 4.3,
+    address: '606 Care Court, Bangalore',
+    contact: '+91 9876543218',
+    website: 'https://www.columbiaasia.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '10',
+    name: 'Medanta',
+    city: 'Delhi',
+    specialties: ['Cardiology', 'Oncology', 'Emergency'],
+    rating: 4.6,
+    address: '707 Hospital Highway, Delhi',
+    contact: '+91 9876543219',
+    website: 'https://www.medanta.org',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '11',
+    name: 'Apollo Gleneagles',
+    city: 'Chennai',
+    specialties: ['Dermatology', 'Cosmetology', 'General'],
+    rating: 4.2,
+    address: '808 Health Haven, Chennai',
+    contact: '+91 9876543220',
+    website: 'https://www.apollohospitals.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '12',
+    name: 'Care Hospitals',
+    city: 'Hyderabad',
+    specialties: ['Cardiology', 'Neurology', 'Orthopedics'],
+    rating: 4.3,
+    address: '909 Medical Mall, Hyderabad',
+    contact: '+91 9876543221',
+    website: 'https://www.carehospitals.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '13',
+    name: 'Artemis Hospital',
+    city: 'Delhi',
+    specialties: ['Oncology', 'Cardiology', 'Pediatrics'],
+    rating: 4.4,
+    address: '1010 Wellness Road, Delhi',
+    contact: '+91 9876543222',
+    website: 'https://www.artemishospitals.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '14',
+    name: 'Tata Memorial',
+    city: 'Mumbai',
+    specialties: ['Oncology', 'General', 'Emergency'],
+    rating: 4.9,
+    address: '1111 Cancer Care Lane, Mumbai',
+    contact: '+91 9876543223',
+    website: 'https://tmc.gov.in',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '15',
+    name: 'Sankara Nethralaya',
+    city: 'Chennai',
+    specialties: ['Eye', 'General'],
+    rating: 4.8,
+    address: '1212 Vision Drive, Chennai',
+    contact: '+91 9876543224',
+    website: 'https://www.sankaranethralaya.org',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '16',
+    name: 'Jaslok Hospital',
+    city: 'Mumbai',
+    specialties: ['Cardiology', 'Neurology', 'Orthopedics'],
+    rating: 4.5,
+    address: '1313 Health Street, Mumbai',
+    contact: '+91 9876543225',
+    website: 'https://www.jaslokhospital.net',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '17',
+    name: 'Apollo Cradle',
+    city: 'Hyderabad',
+    specialties: ['Maternity', 'Pediatrics', 'General'],
+    rating: 4.6,
+    address: '1414 Mother Care Road, Hyderabad',
+    contact: '+91 9876543226',
+    website: 'https://www.apollocradle.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '18',
+    name: 'MIOT International',
+    city: 'Chennai',
+    specialties: ['Orthopedics', 'Cardiology', 'Neurology'],
+    rating: 4.4,
+    address: '1515 Medical Park, Chennai',
+    contact: '+91 9876543227',
+    website: 'https://www.miotinternational.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '19',
+    name: 'Lilavati Hospital',
+    city: 'Mumbai',
+    specialties: ['Cardiology', 'Neurology', 'General'],
+    rating: 4.7,
+    address: '1616 Care Campus, Mumbai',
+    contact: '+91 9876543228',
+    website: 'https://www.lilavatihospital.com',
+    image: '/placeholder.svg'
+  },
+  {
+    id: '20',
+    name: 'Jupiter Hospital',
+    city: 'Mumbai',
+    specialties: ['Pediatrics', 'Maternity', 'Cardiology'],
+    rating: 4.3,
+    address: '1717 Child Care Road, Mumbai',
+    contact: '+91 9876543229',
+    website: 'https://www.jupiterhospital.com',
+    image: '/placeholder.svg'
+  }
+];
+
+export const specialties: Specialty[] = [
+  'Eye',
+  'Dental',
+  'Emergency',
+  'Cardiology',
+  'Orthopedics',
+  'Dermatology',
+  'Cosmetology',
+  'Maternity',
+  'Pediatrics',
+  'Neurology',
+  'Oncology',
+  'General'
+];
+
+export const cities: City[] = [
+  'Delhi',
+  'Bangalore',
+  'Mumbai',
+  'Chennai',
+  'Hyderabad'
+];
